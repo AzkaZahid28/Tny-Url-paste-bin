@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="shortcut icon" href="https://cdn.nexoracle.com/__dirname/images/nexoracle/__icon64.ico" type="image/x-icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+
+    body, html {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #6e45e2, #88d3ce);
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+    .btn-container {
+      text-align: center;
+    }
+    .btn-custom {
+      padding: 15px 30px;
+      font-size: 1.25rem;
+      font-weight: bold;
+      border-radius: 50px;
+      transition: all 0.3s ease;
+      margin: 10px;
+      display: inline-block;
+      color: #fff;
+      text-decoration: none;
+    }
+    .btn-custom-primary {
+      background-color: #ff5f6d;
+    }
+    .btn-custom-secondary {
+      background-color: #ffc371;
+    }
+    .btn-custom:hover {
+      transform: scale(1.1);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="btn-container">
+    <a href="/short" class="btn-custom btn-custom-primary">Url Shortner</a>
+    <a href="/paste" class="btn-custom btn-custom-secondary">PasteBin</a>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
